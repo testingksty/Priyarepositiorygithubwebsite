@@ -11,8 +11,8 @@ public class priyafirstprogram {
 		driver.get("https://www.facebook.com");
 		Thread.sleep(10000);
 		System.out.println("all the best");
-	//am using firefox
-		FirefoxDriver driver = new FirefoxDriver();
+	//Priya used Opera
+		OperaDriver driver = new OperaDriver();
 		driver.get("https://www.flipkart.com");
 
 	}
