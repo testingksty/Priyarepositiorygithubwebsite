@@ -1,13 +1,19 @@
 package Priyankafinalpackage;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class priyafirstprogram {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
-System.out.println("hi friends");
+		Thread.sleep(5000);
+		System.out.println("all the best");
+	//am using firefox
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("https://www.flipkart.com");
+
 	}
 
 }
